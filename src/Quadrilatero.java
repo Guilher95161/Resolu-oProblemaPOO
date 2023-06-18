@@ -1,4 +1,4 @@
-public class Quadrilatero implements FormaGeometrica {
+public abstract class Quadrilatero implements FormaGeometrica {
      protected double esquerda, cima, direita, baixo;
 
     public Quadrilatero(double esquerda, double cima, double direita, double baixo) {
