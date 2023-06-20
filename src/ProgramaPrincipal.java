@@ -56,16 +56,15 @@ while(it.hasNext()){
         System.out.print("Circulo: ");
         System.out.println(formaAtual.toString());
     }
+    if(formaAtual instanceof Quadrilatero){
     if(formaAtual instanceof Quadrado){
         System.out.print("Quadrado: ");
         System.out.println(formaAtual.toString());
     }
-    if(formaAtual instanceof Retangulo){
+    else{
         System.out.print("Retangulo: ");
         System.out.println(formaAtual.toString());
     }
-    else{
-     
     }
 }
 break;
