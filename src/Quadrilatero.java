@@ -12,8 +12,4 @@ public abstract class Quadrilatero implements FormaGeometrica {
         double pe = esquerda + cima + direita + baixo;
         return pe;
     }
-
-    public double area() {
-        return esquerda * cima;
-    }
 }
